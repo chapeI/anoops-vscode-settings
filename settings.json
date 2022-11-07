@@ -1,0 +1,107 @@
+{
+    "dart.lineLength": 300,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+           300 
+        ],
+        
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false,
+    },
+
+    "gitTreeCompare.diffMode": "full",
+    "editor.minimap.enabled": false,
+    "dart.previewLsp": true,
+    "dart.closingLabels":false,
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+
+    // "editor.fontFamily": "'cascadia code'",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "window.autoDetectColorScheme": true,
+    "editor.rulers": [
+        110
+    ],
+    "editor.fontSize": 11,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.mouseWheelZoom": true,
+    "dart.debugExternalPackageLibraries": false,
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["g", "H"],
+            "commands": [{ "command": "editor.action.showDefinitionPreviewHover" }]
+        },
+
+    ],
+
+    "git.confirmSync": false,
+
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [ "[", " " ],
+            "after": [ "O", "<Esc>", "j", "0" ]
+        },
+        {
+            "before": [ "]", " " ],
+            "after": [ "o", "<Esc>", "k", "0" ]
+        },
+        {
+            "before": [ "]", "e" ],
+            "commands": [ "editor.action.moveLinesDownAction" ]
+        },
+        {
+            "before": [ "[", "e" ],
+            "commands": [ "editor.action.moveLinesUpAction" ]
+        }
+    ],
+
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [ "]", "e" ],
+            "commands": [ "editor.action.moveLinesDownAction" ]
+        },
+        {
+            "before": [ "[", "e" ],
+            "commands": [ "editor.action.moveLinesUpAction" ]
+        }
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "keyboard.dispatch": "keyCode",
+    "breadcrumbs.enabled": false,
+    "editor.lineNumbers": "relative",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.views.showRelativeDateMarkers": false,
+    "gitlens.views.commits.pullRequests.showForBranches": false,
+    "gitlens.views.commits.pullRequests.enabled": false,
+    "gitlens.views.commits.showBranchComparison": false,
+    "gitlens.views.commits.avatars": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.visible": false,
+    "window.menuBarVisibility": "compact",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+
+    "workbench.colorCustomizations": {
+        "terminal.background": "#231F20",
+        "terminal.foreground": "#FFF",
+        "terminalCursor.background": "#ff0000",
+        "terminalCursor.foreground": "#ff0000"
+    },
+    "workbench.colorTheme": "Default Light+",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.zoomLevel": -1
+
+}

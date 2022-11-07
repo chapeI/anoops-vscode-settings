@@ -1,0 +1,138 @@
+// Place your key bindings in this file to override the defaults
+[
+  // to simulate the growing selection command in intellij that was super handy at times, but vim does so much more than that so fuckit. 
+    // {
+    //     "key": "ctrl+4",                
+    //     "command": "editor.action.smartSelect.grow",
+    //     "when": "editorTextFocus" 
+    //   },
+    //   {
+    //     "key": "ctrl+shift+4",
+    //     "command": "editor.action.smartSelect.shrink",
+    //     "when": "editorTextFocus"
+    //   },
+      // {
+      //   "key": "ctrl+alt+v",
+      //   "command": "-latex-workshop.view",
+      //   "when": "!config.latex-workshop.bind.altKeymap.enabled && !virtualWorkspace && editorLangId =~ /latex|rsweave|jlweave/"
+      // },
+      {
+        "key": "ctrl+alt+v",
+        "command": "toggleVim"
+    },
+    {
+      "key": "ctrl+shift+b",
+      "command": "workbench.action.toggleSidebarVisibility"
+    },
+    // {
+    //   "key": "ctrl+b",
+    //   "command": "-workbench.action.toggleSidebarVisibility"
+    // }, 
+    {
+    "key": "f",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus && !inputFocus"
+  },
+  {
+    "key": "d",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus && !inputFocus"
+  },
+  {
+    "key": "x",
+    "command": "deleteFile",
+    "when": "explorerViewletFocus && !inputFocus"
+  },
+  {
+    "key": "r",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "enter",
+    "command": "list.select",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "o",
+    "command": "list.select",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+shift+.",
+    "command": "-breadcrumbs.focusAndSelect",
+    "when": "breadcrumbsPossible"
+  },
+  {
+    "key": "ctrl+shift+,",
+    "command": "-editor.action.inPlaceReplace.up",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "-cursorWordLeftSelect",
+    "when": "textInputFocus && !accessibilityModeEnabled"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "-cursorWordEndRightSelect",
+    "when": "textInputFocus && !accessibilityModeEnabled"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+
+  {
+    "key": "ctrl+alt+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "workbench.action.moveEditorToBelowGroup"
+  },
+
+  {
+    "key": "ctrl+alt+up",
+    "command": "workbench.action.moveEditorToAboveGroup"
+  },
+  {
+    "key": "ctrl+=",
+    "command": "workbench.action.increaseViewHeight"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "workbench.action.decreaseViewHeight"
+  },
+  {
+    "key": "ctrl+shift+=",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+=",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "editor.action.fontZoomOut"
+  },
+  {
+    "key": "ctrl+shift+=",
+    "command": "editor.action.fontZoomIn"
+  }
+]
