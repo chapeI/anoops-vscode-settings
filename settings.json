@@ -79,8 +79,6 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "keyboard.dispatch": "keyCode",
-    "breadcrumbs.enabled": false,
-    "editor.lineNumbers": "relative",
     "javascript.updateImportsOnFileMove.enabled": "always",
     "gitlens.views.showRelativeDateMarkers": false,
     "gitlens.views.commits.pullRequests.showForBranches": false,
@@ -98,10 +96,21 @@
         "terminal.background": "#231F20",
         "terminal.foreground": "#FFF",
         "terminalCursor.background": "#ff0000",
-        "terminalCursor.foreground": "#ff0000"
+        "terminalCursor.foreground": "#ff0000",
+        "editorCursor.foreground": "#ff0000",
+        "editorLineNumber.activeForeground": "#ff0000",
+        "editorLineNumber.foreground": "#dcdcdc",
+        "editor.lineHighlightBackground": "#ffe6ee"
     },
-    "workbench.colorTheme": "Default Light+",
     "diffEditor.ignoreTrimWhitespace": false,
-    "window.zoomLevel": -1
+    "window.zoomLevel": -1,
+    "workbench.sideBar.location": "right",
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "workbench.colorTheme": "Default Light+",
+    "editor.cursorBlinking": "phase",
+    "editor.lineNumbers": "relative",
 
 }
