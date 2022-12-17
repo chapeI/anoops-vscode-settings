@@ -1,34 +1,16 @@
-// Place your key bindings in this file to override the defaults
+
+// C:\Users\anoopanthony\AppData\Roaming\Code\User
+
 [
-  // to simulate the growing selection command in intellij that was super handy at times, but vim does so much more than that so fuckit. 
-    // {
-    //     "key": "ctrl+4",                
-    //     "command": "editor.action.smartSelect.grow",
-    //     "when": "editorTextFocus" 
-    //   },
-    //   {
-    //     "key": "ctrl+shift+4",
-    //     "command": "editor.action.smartSelect.shrink",
-    //     "when": "editorTextFocus"
-    //   },
-      // {
-      //   "key": "ctrl+alt+v",
-      //   "command": "-latex-workshop.view",
-      //   "when": "!config.latex-workshop.bind.altKeymap.enabled && !virtualWorkspace && editorLangId =~ /latex|rsweave|jlweave/"
-      // },
-      {
-        "key": "ctrl+alt+v",
-        "command": "toggleVim"
-    },
-    {
-      "key": "ctrl+shift+b",
-      "command": "workbench.action.toggleSidebarVisibility"
-    },
-    // {
-    //   "key": "ctrl+b",
-    //   "command": "-workbench.action.toggleSidebarVisibility"
-    // }, 
-    {
+  {
+    "key": "ctrl+alt+v",
+    "command": "toggleVim"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
     "key": "f",
     "command": "explorer.newFile",
     "when": "explorerViewletFocus && !inputFocus"
@@ -113,6 +95,14 @@
   },
   {
     "key": "ctrl+shift+=",
+    "command": "workbench.action.increaseViewWidth"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "workbench.action.decreaseViewWidth"
+  },
+  {
+    "key": "ctrl+shift+=",
     "command": "-workbench.action.zoomIn"
   },
   {
@@ -128,11 +118,28 @@
     "command": "-workbench.action.zoomOut"
   },
   {
-    "key": "ctrl+shift+-",
+    "key": "ctrl+alt+-",
     "command": "editor.action.fontZoomOut"
   },
   {
-    "key": "ctrl+shift+=",
+    "key": "ctrl+alt+=",
     "command": "editor.action.fontZoomIn"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "-workbench.view.extensions",
+    "when": "viewContainer.workbench.view.extensions.enabled"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "ctrl+alt+g",
+    "command": "git-graph.view"
   }
 ]
