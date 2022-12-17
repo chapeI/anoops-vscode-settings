@@ -1,3 +1,6 @@
+
+// C:\Users\anoopanthony\AppData\Roaming\Code\User
+
 {
     "dart.lineLength": 300,
     "[dart]": {
@@ -23,7 +26,6 @@
     "dart.previewFlutterUiGuides": true,
     "dart.previewFlutterUiGuidesCustomTracking": true,
 
-    // "editor.fontFamily": "'cascadia code'",
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "monospace",
     "window.autoDetectColorScheme": true,
@@ -46,35 +48,6 @@
 
     "git.confirmSync": false,
 
-    "vim.normalModeKeyBindings": [
-        {
-            "before": [ "[", " " ],
-            "after": [ "O", "<Esc>", "j", "0" ]
-        },
-        {
-            "before": [ "]", " " ],
-            "after": [ "o", "<Esc>", "k", "0" ]
-        },
-        {
-            "before": [ "]", "e" ],
-            "commands": [ "editor.action.moveLinesDownAction" ]
-        },
-        {
-            "before": [ "[", "e" ],
-            "commands": [ "editor.action.moveLinesUpAction" ]
-        }
-    ],
-
-    "vim.visualModeKeyBindings": [
-        {
-            "before": [ "]", "e" ],
-            "commands": [ "editor.action.moveLinesDownAction" ]
-        },
-        {
-            "before": [ "[", "e" ],
-            "commands": [ "editor.action.moveLinesUpAction" ]
-        }
-    ],
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
@@ -93,7 +66,7 @@
     },
 
     "workbench.colorCustomizations": {
-        "terminal.background": "#231F20",
+        "terminal.background": "#007acc",
         "terminal.foreground": "#FFF",
         "terminalCursor.background": "#ff0000",
         "terminalCursor.foreground": "#ff0000",
@@ -102,9 +75,9 @@
         "editorLineNumber.foreground": "#dcdcdc",
         "editor.lineHighlightBorder": "#ffb6c1",
         "editorIndentGuide.activeBackground": "#ffb6c1",
-        // "editorIndentGuide.background": "#f5f5f5",  // mute this in dark
+        // "editorIndentGuide.background": "#f5f5f5",  // mute in dark
         "tab.activeBackground": "#007acc",
-        "tab.unfocusedActiveBackground": "#000"   // mute this in light
+        "tab.unfocusedActiveBackground": "#fff"
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "window.zoomLevel": -1,
@@ -115,6 +88,4 @@
     "editor.smoothScrolling": true,
     "editor.cursorBlinking": "phase",
     "editor.lineNumbers": "relative",
-    "breadcrumbs.enabled": false,
-
 }
